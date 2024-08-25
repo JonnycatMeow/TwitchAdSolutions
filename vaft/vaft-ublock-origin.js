@@ -134,7 +134,7 @@ twitch-videoad.js text/javascript
                                                     if (e.data.value.includes('480p')) {
                                                         qualityToSelect = 3;
                                                     }
-                                                    if (e.data.value.includes('720p')) {
+                                                    if (e.data.value.includes('720p60')) {
                                                         qualityToSelect = 2;
                                                     }
                                                     if (e.data.value.includes('822p')) {
@@ -152,7 +152,7 @@ twitch-videoad.js text/javascript
                                                     if (e.data.value.includes('960p')) {
                                                         qualityToSelect = 2;
                                                     }
-                                                    if (e.data.value.includes('1080p')) {
+                                                    if (e.data.value.includes('1080p60')) {
                                                         qualityToSelect = 2;
                                                     }
                                                     if (e.data.value.includes('source')) {
